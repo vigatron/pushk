@@ -115,7 +115,7 @@ The preprint is refreshingly honest:
 
 **Current status (March 2026):**
 - Preprint published.
-- Full source code and reference implementation to be released shortly.
+- Full source code expected within 4–6 months (Q3–Q4 2026). Working on table reindexing optimization
 - Benchmarks against PNG tiles, game assets, and scientific datasets planned immediately after code release.
 
 ## Final Thoughts
