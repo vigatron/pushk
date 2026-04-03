@@ -20,16 +20,16 @@ This repository contains benchmark results for compressing a structured binary d
 
 | File                          | Size (bytes) | % of original | Compression (%) | Δ vs best (bytes) |
 | ----------------------------- | -----------: | ------------: | --------------: | ----------------: |
-| example7b_rdrop.bin           |          399 |       100.00% |           0.00% |               +66 |
-| example7b_rdrop.bin.bz2       |          493 |       123.56% |         -23.56% |              +160 |
-| example7b_rdrop.bin.arj       |          517 |       129.57% |         -29.57% |              +184 |
-| example7b_rdrop.bin.zip       |          528 |       132.33% |         -32.33% |              +195 |
-| example7b_rdrop.bin.gz        |          378 |        94.74% |           5.26% |               +45 |
-| example7b_rdrop.bin.rar       |          457 |       114.54% |         -14.54% |              +124 |
-| example7b_rdrop.bin.xz        |          372 |        93.23% |           6.77% |               +39 |
-| example7b_rdrop.bin.lzma      |          327 |        81.95% |          18.05% |                 - |
-| example7b_rdrop.bin.7z        |          462 |       115.79% |         -15.79% |              +129 |
-| example7b_rdrop.bin.pushk     |          333 |        83.46% |          16.54% |                 0 |
+| example7b_rdrop.bin           |          399 |       100.00% |           0.00% |               +72 |
+| example7b_rdrop.bin.bz2       |          493 |       123.56% |         -23.56% |              +166 |
+| example7b_rdrop.bin.arj       |          517 |       129.57% |         -29.57% |              +190 |
+| example7b_rdrop.bin.zip       |          528 |       132.33% |         -32.33% |              +201 |
+| example7b_rdrop.bin.gz        |          378 |        94.74% |           5.26% |               +51 |
+| example7b_rdrop.bin.rar       |          457 |       114.54% |         -14.54% |              +130 |
+| example7b_rdrop.bin.xz        |          372 |        93.23% |           6.77% |               +45 |
+| example7b_rdrop.bin.lzma      |          327 |        81.95% |          18.05% |                 0 |
+| example7b_rdrop.bin.7z        |          462 |       115.79% |         -15.79% |              +135 |
+| example7b_rdrop.bin.pushk     |          333 |        83.46% |          16.54% |                +6 |
 
 
 
@@ -56,8 +56,8 @@ This repository contains benchmark results for compressing a structured binary d
 ### PUSHK Header Layout (16 bytes)
 
 | Offset | Size | Field                  | Description                                |
-| ------ | ---- | -------------------- | ------------------------------------------ |
-| 0      | 4    | `hdr`                 | File ID — `'PUSH'`                         |
+| ------ | ---- | -------------------- | -------------------------------------------- |
+| 0      | 4    | `hdr`                 | File ID — `'PSHK'`                          |
 | 4      | 1    | `mver`                | Module version                              |
 | 5      | 1    | `sver`                | Stream/compression version                  |
 | 6      | 1    | `opt1`                | Option flags 1                              |
@@ -83,7 +83,7 @@ PUSHK is not a traditional compressor in the classical sense.
 
 In **RDrop** mode, it applies a sophisticated **preprocessing pipeline** that:
 
-* Iteratively scans data in cells (`ScanCells`) and saturates repeating patterns
+* Iteratively scans data and saturates repeating patterns
 * Builds a compact **Global Key Database** (55 keys in this run)
 * Applies **hierarchical Resolution Drop** across multiple layers, discarding low-value resolution information
 * Dramatically reduces entropy on highly structured data before final encoding
@@ -102,13 +102,13 @@ This run specifically demonstrates the power of the RDrop technique on tile-like
 
 ### Visualizations:
 * `example7b_rdrop.bin_scn.svg` — Full visualization of scanning, pattern detection
-* `spctr_B0_spc.svg` — Spectrum / analysis layer 0
-* `spctr_B1_spc.svg` — Spectrum / analysis layer 1
-* `spctr_B2_spc.svg` — Spectrum / analysis layer 2
-* `spctr_B3_spc.svg` — Spectrum / analysis layer 3
-* `spctr_B4_spc.svg` — Spectrum / analysis layer 4
-* `spctr_B5_spc.svg` — Spectrum / analysis layer 5
-* `spctr_B6_spc.svg` — Spectrum / analysis layer 6
+* `spctr_B0_spc.svg` — Huffman tree for block #0
+* `spctr_B1_spc.svg` — Huffman tree for block #1
+* `spctr_B2_spc.svg` — Huffman tree for block #2
+* `spctr_B3_spc.svg` — Huffman tree for block #3
+* `spctr_B4_spc.svg` — Huffman tree for block #4
+* `spctr_B5_spc.svg` — Huffman tree for block #5
+* `spctr_B6_spc.svg` — Huffman tree for block #6
 
 ### Optional:
 * `spctr_declined_global_no_localization_352_bytes_result.svg`  
