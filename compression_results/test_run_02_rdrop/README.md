@@ -43,7 +43,6 @@ This repository contains benchmark results for compressing a structured binary d
 
 * Original file: **`example7b_rdrop.bin`**
 * **Mode:** `test_run_02_rdrop` — **Resolution Drop (RDrop)**
-* **Best result: PUSHK**
 * PUSHK compressed data:
 
   * **317 bytes** — pure compressed stream (final RDropblock)
@@ -78,15 +77,6 @@ This repository contains benchmark results for compressing a structured binary d
 
 ---
 
-### Key internal metrics from this run:
-* **Global Keys extracted**: 55
-* **ScanCells iterations**: 55 (until near-full saturation)
-* **Resolution Drop layers**: 4 (R7 → R8 → R7 → R5)
-* Strong detection of runs, uniform gradients, and tile-like patterns
-
-
----
-
 ## 🧠 About PUSHK — Resolution Drop (RDrop) Mode
 
 PUSHK is not a traditional compressor in the classical sense.
@@ -102,7 +92,6 @@ This run specifically demonstrates the power of the RDrop technique on tile-like
 
 
 ---
-
 
 ## 📂 Generated Files from This Run
 
@@ -121,10 +110,10 @@ This run specifically demonstrates the power of the RDrop technique on tile-like
 * `spctr_B5_spc.svg` — Spectrum / analysis layer 5
 * `spctr_B6_spc.svg` — Spectrum / analysis layer 6
 
-### Optional :
-* `spctr_declined_global_no_localization_352_bytes_result.svg` 
-Global summary visualization *rejected* in favor of smaller, localized trees due to efficiency considerations
-
+### Optional:
+* `spctr_declined_global_no_localization_352_bytes_result.svg`  
+Global summary visualization using a single global Huffman tree — **resulted in 352 bytes**.  
+This approach was *rejected* in favor of multiple smaller, localized trees, which achieved **333 bytes total**, providing better compression efficiency.
 
 ---
 
