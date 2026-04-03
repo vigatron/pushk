@@ -1,0 +1,59 @@
+
+ >>> Global DB Keys List <<< Total : 55 keys
+
+SEQ #000   L=4  R=8 T=[m]      FF FF FF FF                           CNT=    7  | STAT | Bbef=   28 Baft=    3 RATE=  9.74
+SEQ #001   L=26 R=8 T=[U]      75 76 77 78 79 .. .. 89 8A 8B 8C 8D   CNT=    1  | STAT | Bbef=   26 Baft=    4 RATE=  8.32
+SEQ #002   L=25 R=8 T=[U]      96 97 98 99 9A .. .. A9 AA AB AC AD   CNT=    1  | STAT | Bbef=   25 Baft=    4 RATE=  8.00
+SEQ #003   L=24 R=8 T=[U]      B7 B8 B9 BA BB .. .. C9 CA CB CC CD   CNT=    1  | STAT | Bbef=   24 Baft=    4 RATE=  7.68
+SEQ #004   L=24 R=8 T=[U]      D7 D8 D9 DA DB .. .. E9 EA EB EC ED   CNT=    1  | STAT | Bbef=   24 Baft=    4 RATE=  7.68
+SEQ #005   L=2  R=4 T=[m]      08 08                                 CNT=   11  | STAT | Bbef=   22 Baft=    4 RATE=  6.52
+SEQ #006   L=1  R=2 T=[s]      03                                    CNT=   22  | STAT | Bbef=   22 Baft=    4 RATE=  5.50
+SEQ #007   L=17 R=7 T=[U]      5E 5F 60 61 62 .. .. 69 6A 6B 6C 6D   CNT=    1  | STAT | Bbef=   17 Baft=    4 RATE=  5.44
+SEQ #008   L=1  R=4 T=[s]      0E                                    CNT=   18  | STAT | Bbef=   18 Baft=    4 RATE=  5.14
+SEQ #009   L=1  R=3 T=[s]      04                                    CNT=   16  | STAT | Bbef=   16 Baft=    4 RATE=  4.92
+SEQ #010   L=1  R=1 T=[s]      01                                    CNT=   16  | STAT | Bbef=   16 Baft=    4 RATE=  4.92
+SEQ #011   L=2  R=7 T=[m]      40 40                                 CNT=    7  | STAT | Bbef=   14 Baft=    3 RATE=  4.87
+SEQ #012   L=14 R=7 T=[U]      41 42 43 44 45 .. .. 49 4A 4B 4C 4D   CNT=    1  | STAT | Bbef=   14 Baft=    4 RATE=  4.48
+SEQ #013   L=13 R=6 T=[U]      22 23 24 25 26 .. .. 29 2A 2B 2C 2D   CNT=    1  | STAT | Bbef=   13 Baft=    4 RATE=  4.16
+SEQ #014   L=1  R=5 T=[s]      14                                    CNT=    9  | STAT | Bbef=    9 Baft=    3 RATE=  3.79
+SEQ #015   L=1  R=8 T=[s]      FF                                    CNT=    8  | STAT | Bbef=    8 Baft=    3 RATE=  3.56
+SEQ #016   L=1  R=8 T=[s]      8C                                    CNT=    8  | STAT | Bbef=    8 Baft=    3 RATE=  3.56
+SEQ #017   L=1  R=6 T=[s]      37                                    CNT=    7  | STAT | Bbef=    7 Baft=    3 RATE=  3.29
+SEQ #018   L=1  R=7 T=[s]      50                                    CNT=    6  | STAT | Bbef=    6 Baft=    2 RATE=  3.00
+SEQ #019   L=9  R=4 T=[U]      05 06 07 08 09 0A 0B 0C 0D            CNT=    1  | STAT | Bbef=    9 Baft=    4 RATE=  2.88
+SEQ #020   L=1  R=5 T=[s]      17                                    CNT=    5  | STAT | Bbef=    5 Baft=    2 RATE=  2.67
+SEQ #021   L=1  R=3 T=[s]      07                                    CNT=    4  | STAT | Bbef=    4 Baft=    2 RATE=  2.29
+SEQ #022   L=1  R=8 T=[s]      88                                    CNT=    4  | STAT | Bbef=    4 Baft=    2 RATE=  2.29
+SEQ #023   L=1  R=8 T=[s]      C0                                    CNT=    4  | STAT | Bbef=    4 Baft=    2 RATE=  2.29
+SEQ #024   L=1  R=6 T=[s]      3F                                    CNT=    4  | STAT | Bbef=    4 Baft=    2 RATE=  2.29
+SEQ #025   L=6  R=7 T=[U]      55 56 57 58 59 5A                     CNT=    1  | STAT | Bbef=    6 Baft=    4 RATE=  1.92
+SEQ #026   L=1  R=6 T=[s]      20                                    CNT=    3  | STAT | Bbef=    3 Baft=    2 RATE=  1.85
+SEQ #027   L=1  R=4 T=[s]      08                                    CNT=    3  | STAT | Bbef=    3 Baft=    2 RATE=  1.85
+SEQ #028   L=1  R=1 T=[s]      00                                    CNT=    3  | STAT | Bbef=    3 Baft=    2 RATE=  1.85
+SEQ #029   L=1  R=8 T=[s]      FC                                    CNT=    2  | STAT | Bbef=    2 Baft=    2 RATE=  1.33
+SEQ #030   L=1  R=8 T=[s]      FE                                    CNT=    2  | STAT | Bbef=    2 Baft=    2 RATE=  1.33
+SEQ #031   L=1  R=5 T=[s]      18                                    CNT=    2  | STAT | Bbef=    2 Baft=    2 RATE=  1.33
+SEQ #032   L=1  R=6 T=[s]      3B                                    CNT=    2  | STAT | Bbef=    2 Baft=    2 RATE=  1.33
+SEQ #033   L=5  R=7 T=[*]      32 22 23 60 33                        CNT=    1  | STAT | Bbef=    5 Baft=    6 RATE=  0.85
+SEQ #034   L=3  R=6 T=[*]      38 39 3A                              CNT=    1  | STAT | Bbef=    3 Baft=    4 RATE=  0.80
+SEQ #035   L=2  R=5 T=[*]      19 1A                                 CNT=    1  | STAT | Bbef=    2 Baft=    3 RATE=  0.73
+SEQ #036   L=1  R=8 T=[s]      BB                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #037   L=1  R=7 T=[s]      4C                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #038   L=1  R=7 T=[s]      7C                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #039   L=1  R=7 T=[s]      55                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #040   L=1  R=7 T=[s]      7F                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #041   L=1  R=8 T=[s]      FB                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #042   L=1  R=8 T=[s]      BF                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #043   L=1  R=7 T=[s]      44                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #044   L=1  R=2 T=[s]      02                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #045   L=1  R=5 T=[s]      1E                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #046   L=1  R=6 T=[s]      3E                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #047   L=1  R=7 T=[s]      74                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #048   L=1  R=8 T=[s]      91                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #049   L=1  R=5 T=[s]      1C                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #050   L=1  R=8 T=[s]      F6                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #051   L=1  R=8 T=[s]      82                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #052   L=1  R=6 T=[s]      30                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #053   L=1  R=8 T=[s]      B4                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+SEQ #054   L=1  R=8 T=[s]      80                                    CNT=    1  | STAT | Bbef=    1 Baft=    2 RATE=  0.73
+
