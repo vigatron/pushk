@@ -1,6 +1,3 @@
-
----
-
 # PUSHK Compression Benchmark
 
 This repository contains benchmark results for compressing a structured binary data file using multiple popular compression algorithms and the experimental **PUSHK** pipeline in **Resolution Drop (RDrop)** mode.
