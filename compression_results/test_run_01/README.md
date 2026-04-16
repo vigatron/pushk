@@ -1,5 +1,3 @@
----
-
 # PUSHK Compression Benchmark
 
 This repository contains benchmark results for compressing a structured data file using multiple popular compression algorithms and the experimental **PUSHK** pipeline.
